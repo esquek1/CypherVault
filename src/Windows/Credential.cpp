@@ -43,7 +43,7 @@ void Credential::createTable(){
     exit = sqlite3_exec(DB, query.c_str(), NULL, 0, &errMessage);
     
     if(exit != SQLITE_OK){
-        cerr << "Error Create Table" << endl;
+       // cerr << "Error Create Table" << endl;
         sqlite3_free(errMessage);
     }else{
         cout << endl << endl << "Table created Successfully!" << endl << endl;
@@ -287,7 +287,7 @@ bool Credential::findCredential(string& str, string &userSelected) {
         string choice;
         bool valid = false;
         while(!valid){
-            cout << "\nChoose a user/e-mail: ";
+            cout << "\nChoose a user/e-mail (case sensitive): ";
             
             cin >> choice;
 

@@ -298,7 +298,7 @@ void Prompts::printMenu(){
 	cout << "| 3. Change Account                                                |" << endl;
 	cout << "| 4. Change Password                                               |" << endl;
 	cout << "| 5. Help                                                          |" << endl;
-	cout << "| 6. Display credentials                                           |" << endl;
+	cout << "| 6. Display Credentials                                           |" << endl;
 	cout << "| 7. Exit                                                          |" << endl;
 	cout << "********************************************************************" << endl;
 }
@@ -343,7 +343,11 @@ void Prompts::displayHelp(){
     cout << "|      available in the main menu.                                 |" << endl;
 	cout << "|                                                                  |" << endl;
     cout << "| 6. Display Credentials                                           |" << endl;
-    cout << "|                                                                  |" << endl;
+    cout << "|    - Select this option to view all credentials.                 |" << endl;
+	cout << "| 	    Passwords will be encrypted. To view the password,          |" << endl;
+	cout << "| 	    provide the service and master password which will          |" << endl;
+	cout << "| 	    decrypt the password.                                       |" << endl;
+	cout << "|                                                                  |" << endl;
 	cout << "| 7. Exit                                                          |" << endl;
     cout << "|    - Select this option to exit the application.                 |" << endl;
     cout << "********************************************************************" << endl;

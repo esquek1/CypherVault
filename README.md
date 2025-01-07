@@ -47,6 +47,5 @@ Before you begin, make sure you have the following installed:
     ```bash
     ./main
 
-    
 ### Bugs
 If you discover bugs, please report them in Github Issues.
